@@ -99,6 +99,8 @@ public class FloatingPlayerController : MonoBehaviour
 
     void ApplyFloatingForce()
     {
+        if (isJumping) return;
+
         if (Physics.Raycast(groundCheck.position, -transform.up, out RaycastHit hit, floatHeight + 0.5f, groundMask))
         {
             float distanceToGround = hit.distance;
@@ -109,23 +111,19 @@ public class FloatingPlayerController : MonoBehaviour
 
             rb.AddForce(transform.up * force, ForceMode.Acceleration);
 
-            if (!isGrounded)
+            if (isGrounded)
             {
                 isJumping = false;
                 if (animator != null) animator.SetBool("isJumping", false);
             }
+        }
 
-            isGrounded = true;
-        }
-        else
-        {
-            isGrounded = false;
-        }
     }
 
     void HandleGroundCheck()
     {
         isGrounded = Physics.CheckSphere(new Vector3(0,-floatHeight, 0) + groundCheck.position, 0.2f, groundMask);
+        //isGrounded = Physics.Raycast(groundCheck.position, -transform.up, out RaycastHit hit, floatHeight + 0.5f, groundMask);
     }
 
     void HandleJumpInput()
@@ -145,6 +143,7 @@ public class FloatingPlayerController : MonoBehaviour
 
     public void ResetIsJumpingAnim()
     {
+        isJumping = false;
         animator.SetBool("isJumping", false);
     }
 

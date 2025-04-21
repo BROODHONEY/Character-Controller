@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{770F9C33-6604-AB48-8297-91D2E3ADECC9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\floatingcolliderplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{770F9C33-6604-AB48-8297-91D2E3ADECC9}|Assembly-CSharp.csproj|d:\\new unity projects\\character controller\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{770F9C33-6604-AB48-8297-91D2E3ADECC9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{770F9C33-6604-AB48-8297-91D2E3ADECC9}|Assembly-CSharp.csproj|D:\\New Unity Projects\\Character Controller\\assets\\scripts\\playerlook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{770F9C33-6604-AB48-8297-91D2E3ADECC9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerlook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -40,14 +36,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\FloatingColliderPlayer.cs",
               "ToolTip": "D:\\New Unity Projects\\Character Controller\\Assets\\Scripts\\FloatingColliderPlayer.cs",
               "RelativeToolTip": "Assets\\Scripts\\FloatingColliderPlayer.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAowFEAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAQwJEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T16:07:50.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PlayerLook.cs",
               "DocumentMoniker": "D:\\New Unity Projects\\Character Controller\\Assets\\Scripts\\PlayerLook.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerLook.cs",
@@ -55,19 +51,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerLook.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAAABYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T17:17:33.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\New Unity Projects\\Character Controller\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "D:\\New Unity Projects\\Character Controller\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAwHIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T17:11:19.813Z",
+              "WhenOpened": "2025-04-10T17:17:33.685Z",
               "EditorCaption": ""
             }
           ]
